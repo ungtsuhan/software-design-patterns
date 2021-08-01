@@ -6,7 +6,7 @@ Provide an interface for creating families of related or dependent objects witho
 
 ## Structure
 
-[AbstractFactoryPatternStructure](Assets/AbstractFactoryPatternStructure.gif)
+![AbstractFactoryPatternStructure](Assets/AbstractFactoryPatternStructure.gif)
 
 ## Participants
 

@@ -16,23 +16,23 @@ Use the Builder pattern when
 
 ## Particippants
 
-- Builder ()
+- Builder (MazeBuilder)
 
 	- specifies an abstract interface for creating parts of a Product object.
 
-- Concrete Builder ()
+- Concrete Builder (StandardMazeBuilder, CountingMazeBuilder)
 
 	- constrcuts and assembles parts of the product by implementing the Builder interface.
 
 	- defines and keeps track of the representation it creates.
 
-	- provides an interface for retrieving the product (e.g., ).
+	- provides an interface for retrieving the product (e.g. room, wall, door).
 
-- Director
+- Director (MazeGame)
 
 	- constructs an object using the Builder interface.
 
-- Product
+- Product (Maze, Door, Room, Wall)
 
 	- represents the complex object under constructing. Concrete Builder builds the product's internal representation and defines the process by which it's assembled.
 
